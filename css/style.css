@@ -9,13 +9,21 @@ body{
 main{
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 550px;
     width: 100%;
+}
+
+footer, header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
 }
 
 .boutonPage{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .boutonPage a {
@@ -24,10 +32,24 @@ main{
     align-items: center;    
 }
 
-.boutonPage img {
+main .boutonPage img {
     height: 30%;
+}
+
+footer .boutonPage{
+    width: 100%;
 }
 
 .boutonPage:first-child a img{
     transform: rotate(180deg);
+}
+
+footer .boutonPage a img{
+    transform: rotate(90deg);
+    height: 70px;
+}
+
+header .boutonPage:first-child a img{
+    transform: rotate(270deg);
+    height: 70px;
 }
