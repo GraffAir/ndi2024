@@ -1,0 +1,14 @@
+main {
+    display:flex;
+    justify-content: space-around;
+}
+
+.p-presentation {
+    width:30%;
+    align-self: center;
+}
+
+.p-bouton {
+    width:40%;
+    align-self: flex-end;
+}
