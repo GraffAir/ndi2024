@@ -149,3 +149,8 @@ header .boutonPage:first-child span img{
 .left-arrow img {
     rotate:-90deg;
 }
+
+.slider{
+    position: fixed;
+    left: 47%;
+}
