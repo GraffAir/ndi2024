@@ -70,6 +70,10 @@ header .boutonPage:first-child span img{
     box-shadow: 5px 5px 15px rgb(119, 153, 175);
 }
 
+.petit-gauche {
+    margin-right:10%;
+}
+
 .hud {
     position:fixed;
     width:100%;
