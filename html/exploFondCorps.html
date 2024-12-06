@@ -7,7 +7,6 @@
     <script src="script.js"></script>
 </head>
 <body style="background-image: url(../images/squelette.png);">
-    <button onclick="changementDePage('exploFond.html')">Slider</button>
     <main>
         <div class="conteneur-basique">
             <h2>Les os</h2>
@@ -17,7 +16,8 @@
             </p>
         </div>
     </main>
-    <div class="hud">
+    <div class="hud" style="background: none;">
+        <button onclick="changementDePage('exploFond.html')" class="slider">Ocean</button>
         <button onclick="changementDePage('exploDechets.html')" class="arrow left-arrow"><p>Continuer</p><img src="../images/arrow.svg"/></button>
         <div class="screen-filler"></div>
     </div>
