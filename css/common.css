@@ -68,6 +68,7 @@ header .boutonPage:first-child span img{
     padding:20px;
     margin:20px;
     box-shadow: 5px 5px 15px rgb(119, 153, 175);
+    width: 75%;
 }
 
 .petit-gauche {
