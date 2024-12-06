@@ -7,23 +7,20 @@
     <script src="script.js"></script>
 </head>
 <body style="background-image: url(../images/profondeur-1.jpg);">
-    <header>
-        <div class="boutonPage"><span onclick="changementDePage('page2.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
-        <h1>Page 4</h1>
-    </header>
     <main>
-        <div class="boutonPage"><span onclick="changementDePage('page3.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
-        <div id="content">
-            <h1>main</h1>
+        <div class="boutonPage"><span onclick="changementDePage('index.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
+        <div class="conteneur-basique">
+            <h2>La structure de l'ocean</h2>
+            <p>
+                Les plaques tectoniques forment la base de l'ocean, elles le soutiennent et définissent ses limites.
+                Celles-ci se renouvellent continuellement par éruptions de magma, et les zones de subduction permettent à la croute terrestre de se "recycler" dans le manteau terrestre.
+            </p>
         </div>
         <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
     </main>
-    <footer>
-        <div><h1>footer</h1></div>
-        <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
-    </footer>
-    <div class="screen-filler"></div>
-        <a class="down-arrow" href="page1.html">Continuer<img src="../images/arrow-down-from-line.svg"/></a>
+    <div class="hud">
+        <button onclick="changementDePage('exploFond.html')" class="arrow left-arrow"><p>Continuer</p><img src="../images/arrow.svg"/></button>
+        <div class="screen-filler"></div>
     </div>
 </body>
 </html>

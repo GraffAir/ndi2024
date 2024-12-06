@@ -7,25 +7,21 @@
     <script src="script.js"></script> 
 </head>
 <body style="background-image: url(../images/surface.jpg);">
-    <header>
-        <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
-        <h1>Page 2</h1>
-    </header>
     <main>
         <div class="boutonPage"><span onclick="changementDePage('index.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
         <div id="content">
-            <h1>main</h1>
+            <div class="conteneur-basique">
+                <h2>Une protection de corail</h2>
+                <p>Les coraux ne sont pas seulement beaux, ils forment une barriere coriace par la taille de leurs récifs. 
+                    Ils protègent aussi les côtes de l'érosion en absorbant l'énergie des vagues et reduisent en partie les dégats des tempêtes et tsunamis.
+                </p>
+            </div>
         </div>
         <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
     </main>
-    <footer>
-        <div><h1>footer</h1></div>
-        <div class="boutonPage"><span onclick="changementDePage('page4.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
-    </footer>
     <div class="hud">
-        <a class="arrow right-arrow" href="exploCourant.html">Continuer<img src="../images/arrow.svg"/></a>
-        <div class="screen-filler">
-        </div>
+        <button onclick="changementDePage('exploCourant.html')" class="arrow right-arrow"><p>Continuer</p><img src="../images/arrow.svg"/></button>
+        <div class="screen-filler"></div>
     </div>
 </body>
 </html>
