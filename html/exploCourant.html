@@ -7,24 +7,39 @@
     <script src="script.js"></script> 
 </head>
 <body style="background-image: url(../images/profondeur-1.jpg);">
-    <header>
-        <div class="boutonPage"><span onclick="changementDePage('index.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
-        <h1>Page 3</h1>
-    </header>
     <main>
-        <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
-        <div id="content">
-            <h1>main</h1>
-        </div>
-        <div class="boutonPage"><span onclick="changementDePage('page4.html')"><img src="../images/bouton.png" alt="bouton"></span></div>
+            <div class="conteneur-basique petit-gauche">
+                <h2>Des courants... sanguins ?</h2>
+                <p><strong>Vous pensiez que la circulation du sang était réservée aux êtres vivants ?</strong> Détrompez vous,
+                    les océans aussi ont leur forme de "courants" sanguins.
+                </p>
+                <p>
+                    Vous arrivez dans un dédalle de courants marins qui s'enchêvêtrent les uns sur les autres. Votre sous-marin
+                    tient le coup, mais vous ne savez pas jusqu'où vous partirez si vous restez trop longtemps à la dérive.
+                    Avant d'aller plus loin toutefois, prenez le temps de constater ces courants marons. Dîtes vous qu'à l'échelle globale,
+                    on retrouve ce que nos scientifiques ont joliment nommé la "boucle thermohaline" (à vos souhaits).
+                    Cette boucle désigne les courants marins à l'échelle globale qui permettent échanges parfaitements
+                    équilibrés qui permettent de redistribuer la chaleur et les nutriments à travers la planète.
+                    C'est notamment ces échanges qui permettent de réguler la température et le climat à travers le globe !
+                </p>
+                <p>
+                    On observe un effet très similaire pour la circulation sanguine dans le corps humain.
+                    Tout comme les courants marins, elle redistribue les nutriments et différentes aux différents organes,
+                    maintenant à lui seul l'équilibre du corps entier.
+                    
+                </p>
+            </div>
+            <div class="conteneur-basique">
+                <p>
+                    Vous observez un groupe de plancton entrain d'être attiré par le courant !
+                    Que voulez-vous faire ?
+                </p>
+            </div>
     </main>
-    <footer>
-        <div><h1>footer</h1></div>
-        <div class="boutonPage"><span><img src="../images/bouton.png" alt="bouton"></span></div>
-    </footer>
+    
     <div class="hud">
-        <a class="arrow right-arrow" href="exploPlacton.html">Suivre le plancton<img src="../images/arrow.svg"/></a>
-        <a class="arrow down-arrow" href="exploFond.html">Descendre<img src="../images/arrow.svg"/></a>
+        <span class="arrow right-arrow white" onclick="changementDePage('exploPlancton.html')">Suivre les planctons<img src="../images/arrow.svg"/></span>
+        <span class="arrow down-arrow white" onclick="changementDePage('exploFond.html')">Descendre<img src="../images/arrow.svg"/></span>
         <div class="screen-filler">
         </div>
     </div>
