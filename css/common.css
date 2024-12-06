@@ -159,4 +159,9 @@ header .boutonPage:first-child span img{
 .slider{
     position: fixed;
     left: 47%;
+    width:100px;
+    height:50px;
+    background-color:green;
+    color:white;
+    font-size: medium;
 }
