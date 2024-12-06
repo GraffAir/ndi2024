@@ -61,3 +61,11 @@ header .boutonPage:first-child span img{
 .boutonPage span:not([onclick]) {
     visibility: hidden;
 }
+
+.conteneur-basique {
+    background: white;
+    border-radius: 16px;
+    padding:20px;
+    width: 50%;
+    height: 90%;
+}
