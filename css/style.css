@@ -5,7 +5,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 0;
     transition: opacity .5s;
 }
 
@@ -64,8 +63,70 @@ header .boutonPage:first-child span img{
 
 .conteneur-basique {
     background: white;
-    border-radius: 16px;
+    border-radius: 32px;
     padding:20px;
-    width: 50%;
-    height: 90%;
+    box-shadow: 5px 5px 15px rgb(119, 153, 175);
+}
+
+.hud {
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: 10;
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(2,11,48,0) 80%, rgba(0,212,255,1) 100%);
+}
+
+.screen-filler {
+    width:100%;
+    height:100%;
+    transition: opacity .7s;
+    background: black;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.arrow {
+    position:fixed;
+    width:50px;
+    height:50px;
+
+    text-align:center;
+}
+
+.down-arrow {
+    bottom:50px;
+    right:50%; 
+}
+
+.down-arrow img {
+    rotate:180deg;
+}
+
+.up-arrow {
+    top:50px;
+    right:50%;
+}
+
+.right-arrow {
+    top:50%;
+    right:50px;
+}
+
+.right-arrow img {
+    rotate:90deg;
+}
+
+.left-arrow {
+    top:50%;
+    left:50px;
+}
+
+.left-arrow img {
+    rotate:-90deg;
+}
+
+.arrow img {
+    width:100%;
+    height:100%;
 }
